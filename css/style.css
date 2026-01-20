@@ -231,12 +231,12 @@ footer .container{
     font-size: 5em;
   }
 
-  #somos-proya .container{
+  #somos-truchicars .container{
     display: flex;
     justify-content: space-evenly;
   }
 
-  #somos-proya .texto{
+  #somos-truchicars .texto{
     width: 50%;
     max-width: 600px;
     text-align: initial;
@@ -246,11 +246,11 @@ footer .container{
     justify-content: center;
   }
 
-  #somos-proya h2{
+  #somos-truchicars h2{
     margin-top: 0px;
   }
 
-  #somos-proya .img-container{
+  #somos-truchicars .img-container{
     background-image: url("media/somos-proya.jpg");
     background-size: cover;
     background-position: center center;
