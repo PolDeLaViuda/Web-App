@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcas de Coches</title>
+
+  <!-- Tu CSS ORIGINAL -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Ajustes mínimos propios de esta página -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <p class="logo">TruchiCars</p>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#lista-marcas">Marcas</a>
+    </nav>
+  </div>
+</header>
+
+<section id="hero">
+  <h1>Marcas de Coches del Mundo</h1>
+  <button onclick="document.querySelector('#lista-marcas').scrollIntoView()">Ver listado</button>
+</section>
+
+<section id="lista-marcas" class="container">
+  <h2>Todas las Marcas</h2>
+  <input type="text" id="buscador" placeholder="Buscar marca...">
+  <table id="tabla-marcas"></table>
+</section>
+
+
+<footer>
+  <div class="container">
+    <p>© 2026 - Listado mundial de fabricantes automotrices</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
