@@ -76,15 +76,18 @@ header nav {
 }
 
 header a {
-    padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.2s;
 }
 
 header a:hover {
-    color: black;
+    background-color: rgba(0,0,0,0.1);
 }
+
 
 /* ----------- Hero ----------- */
 #hero {
@@ -275,7 +278,7 @@ footer .container {
         background-size: 100% 150px;
         background-repeat: no-repeat;
         background-position-y: 0;
-        background-color: rgba(5,20,33,1);
+        background-color: rgba(200,200,200,1);
         box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     }
 
@@ -413,4 +416,9 @@ ul li a {
 
 ul li a:hover {
   background: #ddd;
+}
+
+.acura a
+{
+    color: red;
 }
